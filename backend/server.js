@@ -9,7 +9,7 @@ const port = PORT || 5000;
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://eight-woman.surge.sh/",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
